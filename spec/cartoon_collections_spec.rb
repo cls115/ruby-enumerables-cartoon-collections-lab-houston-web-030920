@@ -6,8 +6,6 @@ def roll_call_dwarves(arr)
   end 
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
 def summon_captain_planet(arr)
   new_arr = [] 
 
@@ -17,8 +15,6 @@ def summon_captain_planet(arr)
   new_arr
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
 def long_planeteer_calls(arr)
   arr.any? do |word|
     word.length > 4
